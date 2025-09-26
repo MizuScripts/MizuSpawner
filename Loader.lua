@@ -1,6 +1,5 @@
--- 🔹 Script Never Copy This
+-- 🔹 Script Is Obfuscate By 23ms GET THE F### OUT OF HERE SKIDDERS!
 
--- encode with char codes
 local DiscordLink = table.concat({
     string.char(104,116,116,112), "://",
     string.char(100,105,115,99,111,114,100,46,103,103,47),
@@ -16,11 +15,11 @@ end
 
 local Enabled = secureFlag()
 
--- Services
+-- 🔹 Services
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
--- 🔹 Hello Logic
+-- 🔹 Join MizuHub Now!
 if not Enabled then
     LocalPlayer:Kick("Failed To Authorize!\nJoin Discord: " .. DiscordLink)
     return
